@@ -4,21 +4,28 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import NavbarInfo from './components/NavbarInfo';
 import NavbarMain from './components/NavbarMain';
 import Search from './components/Search';
-import Carousel from './components/Carousel';
-import MonthCategories from './components/MonthCategories';
-import FeaturedProducts from './components/FeaturedProducts';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from './pages/Homepage';
+import Aboutpage from './pages/Aboutpage';
+import Contactpage from './pages/Contactpage';
+import Shoppage from './pages/Shoppage';
 
 function App() {
   return (
     <div className="app">
-      <NavbarInfo />
-      <NavbarMain />
-      <Search />
-      <Carousel />
-      <MonthCategories />
-      <FeaturedProducts />
-      <Footer />
+      <Router>
+        <NavbarInfo />
+        <NavbarMain />
+        <Search />
+        <Routes>
+          <Route path='/' element={<Homepage />}></Route>
+          <Route path='/about' element={<Aboutpage />}></Route>
+          <Route path='/shop' element={<Shoppage />}></Route>
+          <Route path='/contact' element={<Contactpage />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

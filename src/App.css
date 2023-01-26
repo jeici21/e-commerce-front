@@ -6,6 +6,7 @@ ul,
 li,
 p,
 a,
+.nav-link,
 label,
 input,
 div {
@@ -65,12 +66,12 @@ div {
 }
 
 .bg-success {
-  background-color: #59ab6e !important;
+  background-color: #ab7e59 !important;
 }
 
 .btn-success {
-  background-color: #59ab6e !important;
-  border-color: #56ae6c !important;
+  background-color: #ab7e59 !important;
+  border-color: #ae8f56 !important;
 }
 
 .pagination .page-link:hover {
@@ -79,7 +80,7 @@ div {
 
 .pagination .page-link:hover,
 .pagination .page-link.active {
-  background-color: #69bb7e;
+  background-color: #bb9569;
   color: #fff;
 }
 
@@ -97,7 +98,7 @@ div {
 }
 
 #templatemo_main_nav a:hover {
-  color: #69bb7e;
+  color: #bb9b69;
 }
 
 #templatemo_main_nav .navbar .nav-icon {
@@ -120,7 +121,7 @@ div {
 
 /* Shop */
 .shop-top-menu a:hover {
-  color: #69bb7e !important;
+  color: #bb9769 !important;
 }
 
 /* Product */
@@ -188,12 +189,12 @@ div {
 /* Carousel Hero */
 #template-mo-jassa-hero-carousel .carousel-indicators li {
   margin-top: -50px;
-  background-color: #59ab6e;
+  background-color: #ab7f59;
 }
 
 #template-mo-jassa-hero-carousel .carousel-control-next i,
 #template-mo-jassa-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
+  color: #ab7e59 !important;
   font-size: 2.8em !important;
 }
 
@@ -214,7 +215,7 @@ div {
 }
 
 .services-icon-wap:hover {
-  background: #69bb7e;
+  background: #bb9269;
 }
 
 /* Contact map */
@@ -233,7 +234,7 @@ div {
 }
 
 #tempaltemo_footer a:hover {
-  color: #68bb7d;
+  color: #bb8f68;
 }
 
 #tempaltemo_footer ul.footer-link-list li {

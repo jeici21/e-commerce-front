@@ -1,8 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 const NavbarMain = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light shadow">
             <div className="container d-flex justify-content-between align-items-center">
-                <a className="navbar-brand text-success logo h1 align-self-center" href="#">
+                <a className="navbar-brand text-success logo h1 align-self-center" href="/">
                     Jassa
                 </a>
                 <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,16 +14,16 @@ const NavbarMain = () => {
                     <div className="flex-fill">
                         <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Home</a>
+                                <NavLink to="/" activeClassName="active" exact className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <NavLink to="/about" activeClassName="active" exact className="nav-link" href="#">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Shop</a>
+                                <NavLink to="/shop" activeClassName="active" exact className="nav-link" href="#">Shop</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <NavLink to="/contact" activeClassName="active" exact className="nav-link" href="#">Contact</NavLink>
                             </li>
                         </ul>
                     </div>
