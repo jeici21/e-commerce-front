@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer className="bg-dark" id="tempaltemo_footer">
@@ -35,11 +37,23 @@ const Footer = () => {
                     <div className="col-md-4 pt-5">
                         <h2 className="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                         <ul className="list-unstyled text-light footer-link-list">
-                            <li><a className="text-decoration-none" href="#">Home</a></li>
-                            <li><a className="text-decoration-none" href="#">About Us</a></li>
+                            <li>
+                                <NavLink to="/" activeClassName="active" exact className="text-decoration-none">
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/about" activeClassName="active" exact className="text-decoration-none">
+                                    About Us
+                                </NavLink>
+                            </li>
                             <li><a className="text-decoration-none" href="#">Shop Locations</a></li>
                             <li><a className="text-decoration-none" href="#">FAQs</a></li>
-                            <li><a className="text-decoration-none" href="#">Contact</a></li>
+                            <li>
+                                <NavLink to="/contact" activeClassName="active" exact className="text-decoration-none">
+                                    Contact
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>

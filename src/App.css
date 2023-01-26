@@ -74,6 +74,10 @@ div {
   border-color: #ae8f56 !important;
 }
 
+.btn-success:hover {
+  cursor: pointer;
+}
+
 .pagination .page-link:hover {
   color: #000;
 }
