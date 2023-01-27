@@ -225,13 +225,69 @@ div {
 }
 
 /* Contact map */
-.leaflet-control a,
-.leaflet-control {
-  font-size: 10px !important;
+.contact-container {
+  box-sizing: border-box;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+
+  /* background-color: aquamarine; */
 }
 
-.form-control {
-  border: 1px solid #e8e8e8;
+.form-container{
+  /* background-color: #04AA6D; */
+  border: 1px solid black;
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.contact-container input[type=text],
+.contact-container input[type=email],
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-container textarea {
+  line-height: 1.5;
+  height: 10em;
+}
+
+.contact-container button {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-container button:hover {
+  background-color: #80ff00;
+}
+
+.contact-container form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .contact-container,
+  button {
+      width: 100%;
+      margin-top: 0;
+  }
 }
 
 /* Footer */
