@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 pt-5">
-                        <h2 className="h2 text-success border-bottom pb-3 border-light logo">Jassa Shop</h2>
+                        <h2 className="h2 border-bottom pb-3 border-light logo">Jassa Shop</h2>
                         <ul className="list-unstyled text-light footer-link-list">
                             <li>
                                 <i className="fas fa-map-marker-alt fa-fw"></i>

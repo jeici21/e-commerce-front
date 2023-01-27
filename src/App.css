@@ -19,12 +19,14 @@ div {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
   font-weight: 200 !important;
+  color: orange;
 }
 
 .h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 30px !important;
   font-weight: 300;
+  color: orange;
 }
 
 .h3 {
@@ -46,7 +48,7 @@ div {
 }
 
 .text-success {
-  color: #59ab6e !important;
+  color: #59ab59 !important;
 }
 
 .text-light {
