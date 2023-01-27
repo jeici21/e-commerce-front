@@ -18,10 +18,10 @@ const NavbarMain = () => {
                                 <NavLink to="/" activeClassName="active" exact className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/about" activeClassName="active" exact className="nav-link" href="#">About</NavLink>
+                                <NavLink to="/shop" activeClassName="active" exact className="nav-link" href="#">Shop</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/shop" activeClassName="active" exact className="nav-link" href="#">Shop</NavLink>
+                                <NavLink to="/about" activeClassName="active" exact className="nav-link" href="#">About</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/contact" activeClassName="active" exact className="nav-link" href="#">Contact</NavLink>

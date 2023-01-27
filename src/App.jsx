@@ -20,8 +20,8 @@ function App() {
         <Search />
         <Routes>
           <Route path='/' element={<Homepage />}></Route>
-          <Route path='/about' element={<Aboutpage />}></Route>
           <Route path='/shop' element={<Shoppage />}></Route>
+          <Route path='/about' element={<Aboutpage />}></Route>
           <Route path='/contact' element={<Contactpage />}></Route>
         </Routes>
         <Footer />
