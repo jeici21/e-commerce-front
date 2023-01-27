@@ -16,7 +16,7 @@ const Carousel = () => {
                             </div>
                             <div className="col-lg-6 mb-0 d-flex align-items-center">
                                 <div className="text-align-left align-self-center">
-                                    <h1 className="h1"><b>Jassa</b> eCommerce</h1>
+                                    <h1 className="h1"><b>KMarket</b> eCommerce</h1>
                                     <h3 className="h2">Lorem Ipsum Lorem Ipsum</h3>
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.

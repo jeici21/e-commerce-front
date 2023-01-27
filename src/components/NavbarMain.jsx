@@ -8,10 +8,13 @@ const NavbarMain = () => {
                 <NavLink to="/" activeClassName="active" exact className="navbar-brand text-success h1 align-self-center" href="/">
                     <img src={logo} alt="KMarket" className="logo" />
                 </NavLink>
-                <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                    id="templatemo_main_nav">
                     <div className="flex-fill">
                         <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                             <li className="nav-item">
@@ -42,11 +45,15 @@ const NavbarMain = () => {
                         </a>
                         <a className="nav-icon position-relative text-decoration-none" href="#">
                             <i className="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">
+                                7
+                            </span>
                         </a>
                         <a className="nav-icon position-relative text-decoration-none" href="#">
                             <i className="fa fa-fw fa-user text-dark mr-3"></i>
-                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">
+                                +99
+                            </span>
                         </a>
                     </div>
                 </div>

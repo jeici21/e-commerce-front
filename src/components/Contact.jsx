@@ -57,7 +57,7 @@ const Contact = () => {
                 <button type="submit">Get in Touch!</button>
             </form>
         </div>
-    )
+    );
 }
 
 export default Contact;

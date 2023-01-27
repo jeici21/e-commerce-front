@@ -17,14 +17,15 @@ const About = () => {
             <div className="row">
                 <div className="column">
                     <div className="card">
-                        <img src={team1} alt="Bryan" />
+                        <img src={team1} alt="Jorge" />
                         <div className="container">
                             <h2>Jorge Castro</h2>
-                            <p className="title">CEO & Founder</p>
+                            <p className="title">Programmer</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                             <p>david92_jc@yahoo.es</p>
                             <p>
-                                <a className="btn btn-success" href='http://google.com' target="_blank">
+                                <a className="btn btn-success" href='https://github.com/jeici21'
+                                    target="_blank" rel="noreferrer">
                                     <Github color="white" size={30}></Github>
                                 </a>
                             </p>
@@ -37,11 +38,12 @@ const About = () => {
                         <img src={team2} alt="Luis" />
                         <div className="container">
                             <h2>Luis Anrrango</h2>
-                            <p className="title">Art Director</p>
+                            <p className="title">Programmer</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>mike@example.com</p>
+                            <p>luisitoylag@gmail.com</p>
                             <p>
-                                <a className="btn btn-success" href='http://google.com' target="_blank">
+                                <a className="btn btn-success" href='https://github.com/LuisRAnrrango'
+                                    target="_blank" rel="noreferrer">
                                     <Github color="white" size={30}></Github>
                                 </a>
                             </p>
@@ -54,11 +56,12 @@ const About = () => {
                         <img src={team3} alt="Ariel" />
                         <div className="container">
                             <h2>Ariel Piguave</h2>
-                            <p className="title">Designer</p>
+                            <p className="title">Programmer</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>john@example.com</p>
+                            <p>arielpiguave@gmail.com</p>
                             <p>
-                                <a className="btn btn-success" href='http://google.com' target="_blank">
+                                <a className="btn btn-success" href='https://github.com/Piguave'
+                                    target="_blank" rel="noreferrer">
                                     <Github color="white" size={30}></Github>
                                 </a>
                             </p>
@@ -68,14 +71,15 @@ const About = () => {
 
                 <div className="column">
                     <div className="card">
-                        <img src={team4} alt="Jorge" />
+                        <img src={team4} alt="Bryan" />
                         <div className="container">
                             <h2>Bryan Sánchez</h2>
-                            <p className="title">Designer</p>
+                            <p className="title">Programmer</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>john@example.com</p>
+                            <p>bsanchez@itsqmet.edu.ec</p>
                             <p>
-                                <a className="btn btn-success" href='http://google.com' target="_blank">
+                                <a className="btn btn-success" href='https://github.com/Bryan-ITSQMET'
+                                    target="_blank" rel="noreferrer">
                                     <Github color="white" size={30}></Github>
                                 </a>
                             </p>
