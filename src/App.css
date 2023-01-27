@@ -36,7 +36,8 @@ div {
 
 /* General */
 .logo {
-  font-weight: 500 !important;
+  width: 250px auto !important;
+  height: 50px !important;
 }
 
 .text-warning {

@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
+import logo from "../images/K-Market-2.png";
 
 const NavbarMain = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light shadow">
             <div className="container d-flex justify-content-between align-items-center">
-                <NavLink to="/" activeClassName="active" exact className="navbar-brand text-success logo h1 align-self-center" href="/">
-                    Jassa
+                <NavLink to="/" activeClassName="active" exact className="navbar-brand text-success h1 align-self-center" href="/">
+                    <img src={logo} alt="KMarket" className="logo" />
                 </NavLink>
                 <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
