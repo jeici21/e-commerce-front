@@ -42,57 +42,18 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <h1>Formulario de contacto</h1>
-            <form
-                onSubmit={(e) => {
-                    onSubmitHandler(e);
-                }}
-                className="contact-form"
-            >
-                <input
-                    type="text"
-                    required
-                    placeholder="Nombres"
-                    value={nombre}
-                    onChange={(e) => {
-                        onChangeHandler("nombre", e.target.value);
-                    }}
-                />
-                <input
-                    type="text"
-                    required
-                    placeholder="Apellidos"
-                    value={apellido}
-                    onChange={(e) => {
-                        onChangeHandler("apellido", e.target.value);
-                    }}
-                />
-                <input
-                    type="email"
-                    required
-                    placeholder="Correo electrónico"
-                    value={email}
-                    onChange={(e) => {
-                        onChangeHandler("email", e.target.value);
-                    }}
-                />
-                <input
-                    type="text"
-                    required
-                    placeholder="Asunto"
-                    value={asunto}
-                    onChange={(e) => {
-                        onChangeHandler("asunto", e.target.value);
-                    }}
-                />
-                <textarea
-                    id="textarea"
-                    required
-                    placeholder="Escriba su mensaje..."
-                    value={textarea}
-                    onChange={(e) => {
-                        onChangeHandler("textarea", e.target.value);
-                    }}
-                ></textarea>
+            <form onSubmit={(e) => { onSubmitHandler(e); }} className="contact-form">
+                <input type="text" required placeholder="Nombres" value={nombre}
+                    onChange={(e) => { onChangeHandler("nombre", e.target.value); }} />
+                <input type="text" required placeholder="Apellidos" value={apellido}
+                    onChange={(e) => { onChangeHandler("apellido", e.target.value); }} />
+                <input type="email" required placeholder="Correo electrónico" value={email}
+                    onChange={(e) => { onChangeHandler("email", e.target.value); }} />
+                <input type="text" required placeholder="Asunto" value={asunto}
+                    onChange={(e) => { onChangeHandler("asunto", e.target.value); }} />
+                <textarea id="textarea" required placeholder="Escriba su mensaje..." value={textarea}
+                    onChange={(e) => { onChangeHandler("textarea", e.target.value); }}>
+                </textarea>
                 <button type="submit">Get in Touch!</button>
             </form>
         </div>
