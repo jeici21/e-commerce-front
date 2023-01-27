@@ -224,6 +224,83 @@ div {
   background: rgb(102, 255, 0);
 }
 
+/*About us map*/
+.about-container {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-container *,
+.about-container *:before,
+.about-container *:after {
+  box-sizing: inherit;
+}
+
+.about-container h2 {
+  text-align: center;
+}
+
+.about-container .column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.about-container .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-container .about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about-container img {
+  width: 100%;
+}
+
+.about-container .container {
+  padding: 0 16px;
+}
+
+.about-container .container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-container .title {
+  color: grey;
+}
+
+.about-container .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.about-container .button:hover {
+  background-color: rgb(145, 255, 0);
+}
+
+@media screen and (max-width: 650px) {
+  .about-container .column {
+    width: 100%;
+    display: block;
+  }
+}
+
 /* Contact map */
 .contact-container {
   box-sizing: border-box;
@@ -234,7 +311,7 @@ div {
   /* background-color: aquamarine; */
 }
 
-.form-container{
+.form-container {
   /* background-color: #04AA6D; */
   border: 1px solid black;
   margin: 2px;
@@ -285,8 +362,8 @@ div {
 
   .contact-container,
   button {
-      width: 100%;
-      margin-top: 0;
+    width: 100%;
+    margin-top: 0;
   }
 }
 
