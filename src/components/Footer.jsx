@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

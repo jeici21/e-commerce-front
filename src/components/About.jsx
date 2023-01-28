@@ -1,7 +1,6 @@
 import team1 from "../images/team1.jpg";
 import team2 from "../images/team2.jpg";
 import team3 from "../images/team3.jpg";
-import team4 from "../images/team4.jpg";
 import { Github } from "react-bootstrap-icons";
 
 const About = () => {
@@ -61,24 +60,6 @@ const About = () => {
                             <p>arielpiguave@gmail.com</p>
                             <p>
                                 <a className="btn btn-success" href='https://github.com/Piguave'
-                                    target="_blank" rel="noreferrer">
-                                    <Github color="white" size={30}></Github>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="column">
-                    <div className="card">
-                        <img src={team4} alt="Bryan" />
-                        <div className="container">
-                            <h2>Bryan Sánchez</h2>
-                            <p className="title">Programmer</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>bsanchez@itsqmet.edu.ec</p>
-                            <p>
-                                <a className="btn btn-success" href='https://github.com/Bryan-ITSQMET'
                                     target="_blank" rel="noreferrer">
                                     <Github color="white" size={30}></Github>
                                 </a>

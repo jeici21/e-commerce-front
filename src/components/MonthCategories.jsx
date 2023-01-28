@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 const MonthCategories = () => {
     return (
         <section className="container py-5">

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 const FeaturedProducts = () => {
     return (
         <section className="bg-light">
